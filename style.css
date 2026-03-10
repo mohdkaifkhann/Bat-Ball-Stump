@@ -1,0 +1,33 @@
+#game{
+      text-align: center;
+      font-size:45px;
+      font-weight: 700px; 
+      margin-top:20px;
+}
+.play{
+      display: flex;
+      justify-content:center;
+      
+}
+.play1{
+      margin:2px;
+      height: 100px;
+      width: 100px;
+      border: 0px;
+      
+      
+}
+.bat-obj{
+      height: 100px;
+      width: 100px;     
+}
+.ball-obj{
+      height:100px;
+      
+}
+.stump-obj{
+      height:100px;
+      width: 96px;
+      
+      
+}
