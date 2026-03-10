@@ -1,0 +1,27 @@
+<h1 id="game">Bat Ball Stump Game</h1>
+    <div class="play"> 
+      <button class="play1" onclick="
+        let computerChoice = generateComputerChoice();
+        let result = getResult('Bat',computerChoice);
+         showResult('Bat',computerChoice, result);       
+        "><img src="bat.jpg" alt="mybat" class="bat-obj"></button>
+      <button class="play1"onclick="
+        let computerChoice = generateComputerChoice();
+        let result = getResult('Ball',computerChoice);
+         showResult('Ball',computerChoice, result); 
+       " ><img src="ball.jpg" alt="mybat" class="ball-obj"> </button>
+      <button class="play1" onclick="
+      let computerChoice = generateComputerChoice();
+        let result = getResult('Ball',computerChoice);
+         showResult('Stump',computerChoice, result); 
+       "> <img src="stump.png" alt="mybat" class="stump-obj">  </button>
+    </div> 
+    <h3 id="user-move"></h3>
+        <h3 id="computer-move"></h3>
+        <h3 id="score"></h3>
+        <h3 id="result"></h3>
+    <div class="play">
+    <button class="play1" onclick="localStorage .clear()
+      resetScore();
+      "> <img src="reset.jpg" alt="mybat" class="stump-obj"> </button>
+    </div>
